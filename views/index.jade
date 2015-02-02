@@ -1,0 +1,38 @@
+extends layout
+
+block scripts
+	script(src='/socket.io/socket.io.js')
+	script(src='/javascripts/client.socket.io.js')
+block content
+	h1(align="center")= title
+	div(class="container")
+		div(class="row")
+			div(class="col-md-6")
+				div(class="panel panel-default")
+					div(class="panel-heading")
+						h3(class="panel-title") Tweet Statistics
+					div(class="panel-body", style="min-height: 150px; max-height:200px;")
+						ul.stats
+							li.love
+							li.hate
+							li.lovePercent 
+							li.hatePercent
+							li.total
+
+			div(class="col-md-6")
+				div(id="chartContainer", style="height: 275px; width: 100%;")
+		div(class="row")
+			div(class="col-md-6")
+				div(class="panel panel-default")
+					div(class="panel-heading")
+						h3(class="panel-title") Love Tweets
+					div(class="panel-body", style="min-height: 500px; max-height:500px;")
+						ul.loveTweets
+			
+			div(class="col-md-6")
+				div(class="panel panel-default")
+					div(class="panel-heading")
+						h3(class="panel-title") Hate Tweets
+					div(class="panel-body", style="min-height: 500px; max-height:500px;")
+						ul.hateTweets
+	

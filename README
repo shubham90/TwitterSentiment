@@ -1,0 +1,22 @@
+Twitter Love/Hate Sentiments Analysis
+
+DEPENDENCIES: 
+1. All the dependencies are listed in package.json file.
+2. Use "npm install ntwitter" for ntwitter package.
+
+
+ENVIRONMENT VARIABLE SETTINGS: 
+1. Set the Environment variables for Twitter Consumer key, Secret key, Access Key and Access Secret in /.bashrc file.
+
+HOW TO RUN: 
+1. Program can be run by going to the project folder and typing "node app.js" in command line.
+2. Client can be run in a modern web browser by going to localhost:3000.
+
+HOW TO INTERPRET THE RESULTS: 
+1. The Tweets will automatically start flowing in. The Stats bar will show all the required statistics.
+2. The CanvasJS Pie Chart will show the Percentages of Love and Tweet.
+
+REFERENCES OF SOFTWARE:
+
+1.CanvasJS: http://canvasjs.com/
+2.ntwitter: https://www.npmjs.com/package/ntwitter
