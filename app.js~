@@ -1,4 +1,3 @@
-require('newrelic');
 var express = require('express');
 var path = require('path');
 var twitter = require('ntwitter');   //Include the ntwitter module for gathering data from twitter API
